@@ -1,2 +1,2 @@
 # motowave_site
-Site Administrativo do aplicativo MotoWave.
+Site de apresentação do motowave.
