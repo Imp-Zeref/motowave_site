@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     siteName: 'MotoWave',
     images: [
       {
-        url: `${siteUrl}/og-image.png`, // 2. CRIE ESSA IMAGEM (1200x630px)
+        url: `${siteUrl}/og-image.png`,
         width: 1200,
         height: 630,
         alt: 'MotoWave - App de Manutenção de Motos',

@@ -18,12 +18,18 @@ export default function Hero({ scrollToSection }: HeroProps) {
       <div className="absolute inset-0 bg-black/40"></div>
 
       <div className="relative z-10 text-center px-6 sm:px-8 lg:px-10 max-w-5xl mx-auto">
+        <div className="flex justify-center ">
+          <img
+            src='/logos/logo_biker_hand.png'
+            width={250}
+          ></img>
+        </div>
         <h1 className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-extrabold leading-tight">
           <span className="text-white">Moto</span>
           <span className="text-primary">Wave</span>
           <br />
           <span className="text-icon block mt-2 sm:mt-4 text-lg sm:text-2xl">
-          Cuide da sua moto como ela cuida de você
+            Cada manutenção é uma viagem mais segura.
           </span>
         </h1>
 

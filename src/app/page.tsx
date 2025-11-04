@@ -10,6 +10,7 @@ import Benefits from '@/components/Benefits'
 import Testimonials from '@/components/Testimonials'
 import DownloadCTA from '@/components/DownloadCTA'
 import Features from '@/components/Features'
+import FAQ from '@/components/FAQ'
 
 export default function HomePage() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -30,6 +31,7 @@ export default function HomePage() {
         <Hero scrollToSection={scrollToSection} />
         <Features />
         <Benefits />
+        <FAQ />
         <DownloadCTA />
       </main>
       <Footer />

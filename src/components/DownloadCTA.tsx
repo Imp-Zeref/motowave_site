@@ -16,7 +16,7 @@ export default function DownloadCTA() {
 
         <div className="flex justify-center items-center mb-8">
           <a
-            href="#"
+            href="https://docs.google.com/forms/d/e/1FAIpQLScb96hdm_qpkMAALAWXph9i8VzThaFhuph6a2Psw0c1oNk90Q/viewform?usp=dialog"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center justify-center gap-3 bg-primary px-8 py-4 rounded-full text-white font-semibold hover:shadow-lg hover:shadow-primary/25 transition-transform duration-200 hover:scale-105 w-full sm:w-auto"

@@ -1,12 +1,11 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
+  reactStrictMode: true,
+  output: 'export',
   images: {
-    domains: [
-      "developer.apple.com",
-      "upload.wikimedia.org"
-    ],
+    unoptimized: true,
   },
-};
+}
 
 export default nextConfig;
